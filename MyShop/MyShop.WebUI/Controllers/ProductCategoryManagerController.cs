@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using MyShop.Core.Models;
-using MySHop.DataAccess.InMemory;
+using MyShop.DataAccess.InMemory;
 
 namespace MyShop.WebUI.Controllers
 {

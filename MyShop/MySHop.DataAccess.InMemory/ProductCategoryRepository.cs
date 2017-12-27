@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 using System.Runtime.Caching;
 using MyShop.Core.Models;
 
-namespace MySHop.DataAccess.InMemory
-{
-    
+namespace MyShop.DataAccess.InMemory
+{    
     public class ProductCategoryRepository
     {
         ObjectCache cache = MemoryCache.Default;
