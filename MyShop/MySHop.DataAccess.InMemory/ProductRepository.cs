@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Caching;
-using MyShop.Core;
 using MyShop.Core.Models;
 
 namespace MyShop.DataAccess.InMemory
