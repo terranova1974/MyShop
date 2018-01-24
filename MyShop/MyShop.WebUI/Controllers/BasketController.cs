@@ -28,7 +28,7 @@ namespace MyShop.WebUI.Controllers
             return RedirectToAction("Index");
         }
 
-        public ActionResult RemoveFromBaket(string Id)
+        public ActionResult RemoveFromBasket(string Id)
         {
             basketService.RemoveFromBasket(this.HttpContext, Id);
             return RedirectToAction("Index");
